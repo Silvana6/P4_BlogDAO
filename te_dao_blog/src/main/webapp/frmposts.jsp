@@ -95,28 +95,5 @@
                 </div>
             </form>
         </div>
-        <!--
-        <h1>NUEVA ENTRADA</h1>
-        
-        <form action="PostsController" method="post">
-        <input type="hidden" name="id" value="<%= pst != null ? pst.getId() : "" %>">
-        <table>
-            <tr>
-                <td>FECHA: </td>
-                <td><input type="date" name="fecha" value="<%= pst != null ? pst.getFecha(): "" %>"/></td>
-            </tr>
-            <tr>
-                <td>TITULO: </td>
-                <td><input type="text" name="titulo" value="<%= pst != null ? pst.getTitulo() : "" %>"/></td>
-            </tr>
-            <tr>
-                <td>CONTENIDO: </td>
-                <td><textarea name="contenido" rows="5" cols="10"><%= pst != null ? pst.getContenido() : "" %></textarea></td>
-            </tr>
-            <tr>
-                <td><input type="submit" value="ENVIAR"/></td>
-            </tr>
-        </table>
-    </form>-->
     </body>
 </html>
